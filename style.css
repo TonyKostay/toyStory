@@ -1,0 +1,249 @@
+@font-face { src:  url("Rubik-Light.ttf") format("ttf"), url("Rubiklight.woff") format("woff") ; font-family: "Rubik"; font-weight: 300; font-style: normal; }
+@font-face { src: url("Rubik-Medium.ttf") format("ttf"), url("Rubikmedium.woff") format("woff"); font-family: "Rubik"; font-weight: 500; font-style: medium; }
+@font-face { src: url("Rubik-Bold.ttf") format("ttf"), url("Rubikbold.woff") format("woff"); font-family: "Rubik"; font-weight: 700; font-style: bold; }
+
+
+
+
+body{
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color:#fff;
+  font-family: 'Rubik';
+  font-weight: 300;
+  font-style: normal;
+}
+a:hover{
+  background-color: #3f74df;
+  box-shadow: 0 0 30px rgba(233, 230, 230, 0.25);
+}
+.firstFrame{
+  width: 100vw;
+  background-color: #296DF2;
+  
+}
+.bootstrap12{
+  width: 70vw;
+  padding: 0;
+  margin: 0 auto;
+}
+.playLabel{
+  text-align: left;
+  font-family: 'Rubik';
+  font-weight: 700;
+  font-style: bold;
+  color: #fff;
+  font-size: 58pt;
+  margin: 56px 0 23px 0;
+}
+
+.firstMain{
+  margin-top: 56px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+h1{
+  font-size: 18pt;
+  font-family: 'Rubik';
+  font-weight: 300;
+  font-style: normal;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  line-height: 130%;
+}
+h2{
+  text-align: center;
+  color: #fff;
+  font-size: 45px;
+  font-family: 'Rubik';
+  font-weight: 500;
+  font-style: medium;
+  margin: 0;
+}
+h3{
+  color: #fff;
+  font-size: 22px;
+  font-family: 'Rubik';
+  font-weight: 300;
+  text-align: center;
+}
+button{
+  background: linear-gradient(to bottom, #FF5BB8, #B91953);
+  border: none;
+  color: #fff;
+  font-family: 'Rubik';
+  font-weight: 500;
+  font-style: medium;
+  border-radius: 42px;
+  font-size: 28pt;
+  width: 220px;
+  height: 56px;
+  font-size: 22pt;
+  box-shadow: 0.1em 0.4em 10px rgba(83, 4, 4, 0.15);
+}
+
+button:hover{
+  background: linear-gradient(to bottom, #ff82c9, #da1c61);
+}
+
+
+.mainButton{
+  margin-top: 30px;
+  transform: translateX(-10px);
+
+}
+.mainImg{
+  width: 60%;
+  order: 1;
+}
+.mainHeader{
+  display: flex;
+  justify-content: space-between;
+}
+
+ul{
+  width: 150px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+}
+
+li{
+  padding-top: 20px;
+  list-style-type: none;
+  display: inline;
+}
+
+menu{
+  margin: 42px 0 0 0 ;
+  padding: 0;
+  width: 220px;
+  border-bottom: 1px solid #7D9BD6;
+  border-top:  1px solid #2D62CA;
+  background: linear-gradient(to bottom, #2469F0, #2E74FC);
+  height: 56px;
+  border-radius: 42px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo{
+  color: #fff;
+  margin: 50px 0 0 0 ;
+  font-size: 18pt;
+  font-family: 'Rubik';
+  font-weight: 500;
+  font-style: medium;
+}
+
+.secondFrame{
+  background-color: #2667E5;
+  padding: 94px 0 80px 0 ;
+}
+
+.secondMain{
+  margin-top: 71px;
+  display: flex;
+  justify-content: space-between;
+}
+.secondHeader{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.toyCard{
+  display: flex;
+  width: 30%;
+  min-width: 168px;
+  min-height: 216px;
+  background-color: #296DF2;
+  border-radius: 64px 64px 120px 120px;
+  flex-direction: column;
+  align-items: center;
+  border-top: rgba(255, 255, 255, .25) solid 2px;
+  border-bottom: rgba(0, 0, 0, .25) solid 2px;
+  transition: 200ms ease-in-out;
+}
+
+.toyCard:hover{
+  background-color: #3378FF;
+  transform: scale(1.05);
+}
+.card-img{
+  height:61%;
+  min-height: 232px ;
+  margin: 0 auto;
+  padding: 40px 0 0 0;
+}
+.toyLabel{
+  padding: 0;
+  margin-bottom: 30px;
+  color: #fff;
+  font-size: 22px;
+  font-family: 'Rubik';
+  font-weight: 300;
+  font-style: normal;
+}
+.buttonCard{
+  width: 80%;
+}
+.thirdFrame{
+  background-color: #2667E5;
+  padding: 29px 0 118px 0;
+}
+.thirdMain{
+  display: flex;
+  justify-content: space-between;
+}
+.aboutUs-heading{
+  text-align: left;
+  margin-top: 49px;
+}
+p {
+  padding: 0;
+  margin-bottom: 30px;
+  color: #fff;
+  font-size: 22px;
+  font-family: 'Rubik';
+  font-weight: 300;
+  margin-top: 51px;
+}
+@media screen and (max-width: 1270px) {
+  .bootstrap12{
+    width: 80vw;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .firstFrame{
+    padding-bottom: 50px;
+  }
+  .mainImg{
+    width: 100%;
+    order: -1;
+  }
+  .thirdMain{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .secondMain{
+    display: block;
+  }
+
+  .toyCard{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 80%;
+  }
+  .card-img{
+    height:300px;
+  }
+}
+
